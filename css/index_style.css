@@ -1,0 +1,42 @@
+html {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.message {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.warning {
+  display: none;
+  color: crimson;
+
+}
+.radios_prereq:hover .warning{
+  display: block;
+}
+
+fieldset {
+  background-color: lightskyblue;
+  border-style: none;
+  width: 600px;
+  margin: auto auto 30px;
+  border-radius:15px 30px 50px;
+}
+
+.submit {
+  background-color: inherit;
+  text-align: center;
+}
+
+.button {
+  border-style: none;
+  background-color: lightskyblue;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+}
